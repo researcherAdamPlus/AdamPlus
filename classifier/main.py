@@ -36,7 +36,7 @@ parser.add_argument('--decay_rate', type=float, default=1.0, help='Decay rate')
 parser.add_argument('--decay_steps', type=int, default=1, help='Decay steps')
 parser.add_argument('--weight_decay', '-wd', type=float, default=1e-4, help='Weight decay')
 parser.add_argument('--batch_size', type=int, default=32, help='LR scheduler type')
-parser.add_argument('--model', type=str, default='resnet-18', help='Model')
+parser.add_argument('--model', type=str, default='mnist', help='Model')
 parser.add_argument('--db_noise', type=float, default=-140.0, help='Noise in db')
 args = parser.parse_args()
 
