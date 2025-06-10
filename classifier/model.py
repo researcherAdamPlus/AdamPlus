@@ -12,7 +12,6 @@ class MNISTClassifier(nn.Module):
 
     def forward (self, inputs):
         x = self.flatten(inputs)
-        x = self.flatten(inputs)
         x = F.relu(self.dense1(x))
         return self.dense2(x)
     
