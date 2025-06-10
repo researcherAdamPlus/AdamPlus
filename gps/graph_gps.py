@@ -135,7 +135,7 @@ optimizer = get_optimizer(model.parameters(), args.learning_rate, args)
 
 # optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-5)
 if args.scheduler == 1:
-    scheduler = torch.optim.lr_schedulerReduceLROnPlateau(
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode='min', factor=0.5, patience=20, min_lr=0.000001
         )
 elif args.scheduler == 2:
