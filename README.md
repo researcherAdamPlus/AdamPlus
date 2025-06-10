@@ -1,6 +1,6 @@
 # Boosting Adam-like Optimizers with Signal-to-Noise Ratio Guided Updates
 
-This repository contains the code from [Boosting Adam-like Optimizers with Signal-to-Noise Ratio Guided Updates](https://openreview.net/forum?id=5nN5nnRlnW&noteId=5nN5nnRlnW) paper. 
+This repository contains the code from Boosting Adam-like Optimizers with Signal-to-Noise Ratio Guided Updates paper. 
 
 ## Dependencies
 See [requirements.txt](requirements.txt).
