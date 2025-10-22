@@ -1,0 +1,12 @@
+type: AdamW+
+
+lr: 2e-05
+beta1: 0.9
+beta2: 0.98
+eps: 1e-6
+weight_decay: 0.0
+amsgrad: False
+is_mask: False
+is_lamb: False
+weight_decouple: True
+db_noise: -140
