@@ -17,3 +17,5 @@ See [requirements.txt](requirements.txt).
 [cramming_bert](cramming_bert) is based on crammed BERT from the corresponding paper
 
 [nanoGPT](nanogpt) is based on nanoGPT codebase from the original repository
+
+[atari](atari) implements atari games. It is based on cleanrl repository 
