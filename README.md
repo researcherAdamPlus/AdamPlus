@@ -12,4 +12,8 @@ See [requirements.txt](requirements.txt).
 
 [cleanrl/cleanrl](cleanrl/cleanrl) directory contains the code for [CartPole-DQN](cleanrl/cleanrl/dqn.py) and [MuJoCo-SAC](cleanrl/cleanrl/sac_continuous_action.py) experiments.
 
-Each directory contains a run.ipynb and plot_metric.ipynb files. The first one sets up the simulation parameters and runs the experiments while the second one plots the results.
+[LSTM](LSTM) directory is the LMTM experiment from AdaBelief
+
+[cramming_bert](cramming_bert) is based on crammed BERT from the corresponding paper
+
+[nanoGPT](nanogpt) is based on nanoGPT codebase from the original repository
